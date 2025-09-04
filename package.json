@@ -9,6 +9,9 @@
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
+    "make": "electron-forge make",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
     "make": "electron-forge make"
   },
   "devDependencies": {
@@ -21,6 +24,9 @@
     "@electron-forge/plugin-fuses": "^7.8.3",
     "@electron/fuses": "^1.8.0",
     "electron": "^34.2.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1"
