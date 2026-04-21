@@ -11,6 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    transition: background-color 1s ease-in-out;
 }
 .mainDiv {
     width: 100vw;
@@ -45,6 +46,7 @@ body{
     background-color: #010718;
     border-left: 2px solid #fff;
     animation: animate 4s steps(12) infinite;
+    transition: background-color 1s ease-in-out;
 }
 .text.mobile.bg-ACC794:before {
     background-color: #ACC794;
